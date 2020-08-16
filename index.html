@@ -11,6 +11,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <script src="./script.js"></script>
     <title>Fetch api sandbox</title>
   </head>
   <body>
@@ -46,10 +47,10 @@
         <input type="submit" class="btn btn-outline-primary" value="Submit" />
       </form>
     </div>
-    <script>
-      document.getElementById("getUsers").addEventListener("click", getUsers);
-      document.getElementById("getPosts").addEventListener("click", getPosts);
-      document.getElementById("addPost").addEventListener("submit", addPost);
+<!--     <script>
+    //  document.getElementById("getUsers").addEventListener("click", getUsers);
+  //    document.getElementById("getPosts").addEventListener("click", getPosts);
+//      document.getElementById("addPost").addEventListener("submit", addPost);
       function getUsers() {
         fetch("https://jsonplaceholder.typicode.com/users")
           .then((res) => res.json())
@@ -101,7 +102,7 @@
           .then((res) => res.json())
           .then((data) => console.log(data));
       }
-    </script>
+    </script> -->
     
   </body>
 </html>
